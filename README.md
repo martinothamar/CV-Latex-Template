@@ -10,7 +10,6 @@ From <a href="https://no.sharelatex.com/templates/cv-or-resume/extended-fancy-cv
 > Some improvements have been added, in particular modern infographic-style elements.
 
 
-
 # Mac OS X (El Capitan)
 
 * Install [MacTex](https://tug.org/mactex/) or equivalent
@@ -18,6 +17,7 @@ From <a href="https://no.sharelatex.com/templates/cv-or-resume/extended-fancy-cv
  * Note: after El Capitan, TexMaker and other GUI editors won't find MacTex anywhere due to /usr access
  * See [this article](https://tug.org/mactex/UpdatingForElCapitan.pdf) for the solution
 * Open TexMaker and build with LuaLaTeX!
+* For exporting pdf to png: `sips -s format png --out "CV.png" "CV.pdf"`
 
 
 # Ubuntu/Mint
