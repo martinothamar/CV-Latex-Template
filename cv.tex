@@ -21,7 +21,7 @@
 
 \begin{document}
 \header{Martin}{Othamar}
-      {developer}
+      {full-stack developer}
 
 % Fake text to add separator
 \vspace{1.15cm}
@@ -32,6 +32,10 @@
 % In the aside, each new line forces a line break
 \begin{aside}
   \includegraphics[scale=0.40]{img/meg2.jpg}
+    ~
+  \vspace{0.65cm}
+  \section{Civil status}
+    Married
   	~
   \section{Address}
     Trollkleiva, 8
@@ -45,28 +49,36 @@
     ~
   \section{Web \& Git}
   	%\underline{\href{http://martinothamar.github.io}{martinothamar.github.io}}
+	\vspace{0.10cm}
     \underline{\href{https://no.linkedin.com/in/martinothamar}{linkedin.com/in/martinothamar}}
+	\vspace{0.10cm}
+    \underline{\href{http://stackoverflow.com/story/martinothamar}{stackoverflow.com/story}}
+	\vspace{0.10cm}
+    \underline{\href{http://stackoverflow.com/cv/martinothamar}{stackoverflow.com/cv}}
+	\vspace{0.10cm}
     \underline{\href{https://github.com/martinothamar}{github.com/martinothamar}}
     ~
   \section{Programming}
-    \includegraphics[scale=0.22]{img/programming2.png}
-    ~
-
-  \section{Personal Skills}
-    \includegraphics[scale=0.22]{img/personal2.png}
+    \includegraphics[scale=0.22]{img/programming.png}
     ~
   \section{OS Preference}
-    \asidelist{\textbf{Linux}}
+    \asidelist{\textbf{mac OS}}
     {\includegraphics[scale=0.30]{img/star.png}
     \includegraphics[scale=0.30]{img/star.png}
     \includegraphics[scale=0.30]{img/star.png}
     \includegraphics[scale=0.30]{img/star.png}
     \includegraphics[scale=0.30]{img/star.png}}
-    \asidelist{\textbf{Windows}}
+    \asidelist{\textbf{Linux}}
     {\includegraphics[scale=0.30]{img/star.png}
     \includegraphics[scale=0.30]{img/star.png}
     \includegraphics[scale=0.30]{img/star.png}
     \includegraphics[scale=0.30]{img/star.png}
+    \includegraphics[scale=0.30]{img/star_empty.png}}
+    \asidelist{\textbf{Windows}}
+    {\includegraphics[scale=0.30]{img/star.png}
+    \includegraphics[scale=0.30]{img/star.png}
+    \includegraphics[scale=0.30]{img/star.png}
+    \includegraphics[scale=0.30]{img/star_empty.png}
     \includegraphics[scale=0.30]{img/star_empty.png}}
     ~
 \end{aside}
@@ -75,20 +87,36 @@
 \section{Experience}
 \begin{entrylist}
   \entry
+    {Nov. 15 - Now}
+    {System Developer, Web}
+    {Inkrement AS, Kristiansand}
+    {Developing ed-tech related web \& mobile applications on stacks typically involving .NET C\# MVC/Web API on the back end
+    and Razor/HTML/CSS/JS on the front end, and mobile development on native Android with Java.\\\\
+    Wrote the ASP.NET Web API, SQLServer backend, including a React + Redux CMS front end and the native Android
+    application for Eksamensklar (\underline{\href{http://erduklar.no/}{erduklar.no}}),
+    a math exam preparation app for 10th graders in Norway.\\\\
+    Worked on various pieces of the Campus Inkrement 
+    (\underline{\href{https://campus.inkrement.no}{campus.inkrement.no}})
+    flipped learning platform including the front
+    page, initial infrastructure and administration for the Pro/Premium model, exception/error tracking system for the front and
+    back end, as well as a Google Analytics reporting component allowing us better insight into usage patterns across the
+    platform.\\}
+  \entry
     {Sept. 15 - Now}
     {Co-Founder \& IT Consultant}
-    {EnterCon DA, Kristiansand/Oslo}
-    {Delivering web sites, apps and marketing solutions to businesses
-    in southern and eastern Norway. I am responsible for development,
-    hosting and internal IT infrastructure.\\}
+    {EnterCon AS, Kristiansand/Oslo}
+    {A small consulting company delivering software-solutions, typically web \& mobile apps, software design, 
+    development and marketing and innovation consulting.\\
+	Developed and managed projects delivering web-apps, servers and mobile applications in both native 
+	(iOS with Swift \& Android with Java) and hybrid formats (e.g. Ionic + Cordova + Meteor). \\}
   \entry
-    {Aug. 15 - Now}
+    {Aug. 15 - Nov. 15}
     {Software Developer}
     {meQuire Solutions AS, Kristiansand}
     {Part time back end development on a software-stack consisting of the following
     technologies; NodeJS, HAPI, RethinkDB.\\}
   \entry
-    {Aug. 15 - Now}
+    {Aug. 15 - Dec. 15}
     {Teaching Assistant}
     {University of Agder, Kristiansand}
     {Helping third year students in the IT and Information Systems Bachelor's degree programme
@@ -117,15 +145,9 @@
 \end{entrylist}
 
 
+\newpage
 \section{Education}
 \begin{entrylist}
-  \entry
-    {Aug. 15 - Now}
-    {Master's Degree (MSc) in Information Systems}
-    {University of Agder}
-    {Information Systems Master's Degree focusing on Systems Development
-    /Software Engineering, Enterprise Systems (ERP), Business Development and
-    IT Project Management.\\}
   \entry
     {Aug. 13 - June 15}
     {Bachelor's Degree (BSc) in IT and Information Systems}
@@ -145,8 +167,8 @@
 
 
 
-\newpage
 \begin{aside}
+  \vspace{1cm}
   \section{Places lived}
     \includegraphics[scale=0.62]{img/norway.png}
     ~
@@ -183,7 +205,17 @@
 \section{Projects}
 \begin{entrylist}
   \entry
-    {Aug. 15 - Now}
+    {Oct. 16 - Now}
+    {Brobet API \& Android app}
+    {Project with Sondre Sallaup}
+    {Spare time project with Sondre Sallaup, where I created and maintained
+    the backend stack and native Android application.
+    Backend stack consisted of a NodeJS (v6.x LTS) TypeScript GraphQL API with
+    a PostgreSQL database using the ApolloStack libraries/toolset, ExpressJS http/ws server
+    framework and passport.js authentication library.
+    \underline{Private repo}.\\}
+  \entry
+    {Aug. 15 - Oct. 15}
     {UiA Schedule for Android}
     {EnterCon project}
     {An Android application for displaying the schedule is a user-friendly,
@@ -199,27 +231,6 @@
     of their webpage, outputting JSON.
     \underline{\href{https://github.com/EnterCon/UiA-ScheduleScraper}
     {Github repository}}.\\}
-  \entry
-    {Aug. 14 - Dec. 14}
-    {Slit.nu}
-    {University of Agder}
-    {Portal for module based learning, written in Java with JSF, OpenJPA on a TomEE server.
-    Developed in the course of IS-202: Programming project.\\}
-  \entry
-    {Jan. 14 - Feb. 14}
-    {NetworkIT}
-    {Solo project}
-    {Web-based recruitment platform.
-    Built on the LAMP-stack with Laravel and Twitter Bootstrap + jQuery for the front end.
-    \underline{\href{https://bitbucket.org/martinothamar/networkit}{Bitbucket repository}}.\\}
-  \entry
-    {Sept. 13 - Jan. 14}
-    {Nettverket-SB}
-    {Student company, {{\O}}stfold University College}
-    {Career portal for newly educated and students.
-    Built on the LAMP-stack with a homemade MVC framework and
-    Twitter Bootstrap + jQuery for the front end.
-    \underline{\href{https://github.com/martinothamar/Nettverket-SB}{Github repository}}.}
 \end{entrylist}
 
 
