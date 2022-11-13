@@ -9,7 +9,7 @@ From <a href="https://no.sharelatex.com/templates/cv-or-resume/extended-fancy-cv
 > CV template created by Carmine Benedetto, based on Fancy CV template created by Adrien Friggeri.
 > Some improvements have been added, in particular modern infographic-style elements.
 
-<img src="https://raw.githubusercontent.com/martinothamar/CV-Latex-Template/master/CV.png" 
+<img src="https://raw.githubusercontent.com/Amallyn/CV-Latex-Template/master/CV.png" 
 width="425" height="550">
 
 # Mac OS X (El Capitan)
